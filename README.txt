@@ -134,10 +134,23 @@ since they handle the overhead for ensuring all of its respective attributes rem
 
 INSTALLATION
 
-The easiest approach is: pip install data_tree
+Via pip...
 
-You can also download the source from github (link and directions to be provided later).
+pip install data-tree
 
+
+Via source...
+
+-You can also download the source from github https://github.com/jrhazlett/data-tree.
+
+-Click "Clone or download" and "Download Zip"
+
+-Decompress the zip file
+
+-Navigate to the directory within a terminal and run: python setup.py install
+
+If the install process fails, the KNOWN ISSUES section documents some of the possible install challenges
+and potential solutions.
 
 
 COMPATIBILITY
