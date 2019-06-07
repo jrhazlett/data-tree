@@ -1814,6 +1814,19 @@ Since all the libraries used in this package’s creation are native to Python, 
 be a problem.
 
 
+-Mac OS possible header version issue
+
+If upgrading a Mac OS version, its possible an error might come up which states something along the lines of:
+
+"...error: uknown enumerated scalar
+platform:     zippered
+clang: error: linker command failed with exit code 1
+error: command 'gcc' failed with exit status 1"
+
+Solution: Need to install "MacOS headers in the base system." In Mac OS' case, this would be "macOS_SDK_headers_for_macOS_<version>.pkg"
+This changes between OS versions, so you need to look up the correct target for your version.
+
+
 
 FUTURE PLANS
 
