@@ -286,7 +286,7 @@ if _BOOL_CYTHON_ACTIVE :
 #
 try :
 
-    with open( "README.md", "r", ) as _file :
+    with open( "README.txt", "r", ) as _file :
 
         _dict_of_arguments_for_setup[ "long_description" ] = _file.read()
 
