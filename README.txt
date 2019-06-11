@@ -7,6 +7,8 @@ james.hazlett.python@gmail.com
 
 Welcome to the Data Tree!
 
+Link to PyPi repository: https://pypi.org/project/data-tree/
+
 A practical tree for those short on time.
 
 Note: I’m treating this as a living project, and definitely in its alpha stage.
